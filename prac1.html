@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice-1</title>
+    <style>
+        body {
+            background-image: url('img/1.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .nav {
+            width: 40%;
+            margin: 0 auto;
+        }
+
+        .navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: transparent;
+
+        }
+
+        .navbar li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: #111;
+            text-align: center;
+            padding: 14px 40px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            border: solid;
+            border-color: #8A8A8A;
+        }
+
+        .card {
+            /* display: flex; */
+            /* align-content: center; */
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            width: 15%;
+            margin-top: 40px;
+            /* margin-left: auto; */
+            /* margin-right: auto; */
+            margin-right: 10px;
+        }
+
+        .cardContainer:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            color: #111;
+        }
+
+        .container {
+            padding: 2px 16px;
+            text-align: center;
+        }
+
+        .cardContainer {
+            display: flex;
+            justify-content: center;
+            color: #36454F;
+
+        }
+
+        .c_container {}
+
+        .card_second {
+            width: 100%;
+
+        }
+
+        .c_container {
+            justify-content: center;
+        }
+
+        /* 
+        .card_second p {
+            font-size: larger;
+        } */
+
+        .card_second h2 {
+            font-family: copperplate;
+
+        }
+
+        .c_container {
+            font-family: Copperplate;
+        }
+
+        .search {
+            padding: 7px;
+            margin-top: 8px;
+            margin-left: 2px;
+            border: none;
+            border-radius: 1.625rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul class="navbar">
+            <li><a href="prac1.html">Home</a></li>
+            <li><a href="news.html">Experience</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><input type="text" placeholder="Search.." class="search"></li>
+        </ul>
+    </div>
+    <div class="cardContainer">
+        <div class="card">
+            <img src="img/avtar.png" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h4><b>Prem Mehta</b></h4>
+                <p>Trainee Software Engineer PHP</p>
+                <!-- <p>PHP Department</p> -->
+            </div>
+        </div>
+
+        <div class="card_second">
+            <div class="c_container"><br>
+                <h2><b>Prem Mehta</b></h2>
+                <ul>
+                    <li>
+                        Smart Worker
+                    </li>
+                    <li>
+                        Adaptability, Knowledge and Focus on work.
+                    </li>
+                    <li>
+                        Excellent communication skills in written and verbal both.
+                    </li>
+                    <li>
+                        Keep myself calm in pressure situation.
+                    </li>
+
+                    <li>
+                        Skilled in programming languages and using them for software developing.
+                    </li>
+                    <li>
+                        Proficient in maintaining the existing program with implementation of new techniques.
+                    </li>
+                    <li>
+                        Skilled in leading the team from the front.
+                    </li>
+                    <li>
+                        Remarkable ability in executing the plan with precision.
+                    </li>
+                    <li>
+                        A detail oriented, hardworking professional with exceptional programming skills possesses Master
+                        in computer application degree in Computer.
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
